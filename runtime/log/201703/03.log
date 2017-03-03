@@ -2389,3 +2389,1548 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2017-03-03T17:40:27+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.239552s][吞吐率：4.17req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:40:28+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.179688s][吞吐率：5.57req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:41:26+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.188995s][吞吐率：5.29req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:41:27+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.099590s][吞吐率：10.04req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:41:29+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.173886s][吞吐率：5.75req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:41:30+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.089530s][吞吐率：11.17req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:41:39+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.160615s][吞吐率：6.23req/s] [内存消耗：1,778.50kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:41:40+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.116481s][吞吐率：8.59req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:42:15+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.200548s][吞吐率：4.99req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:42:16+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.127707s][吞吐率：7.83req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:42:36+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.210550s][吞吐率：4.75req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:42:37+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.090975s][吞吐率：10.99req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:42:46+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.110085s][吞吐率：9.08req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:42:46+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.056050s][吞吐率：17.84req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:43:10+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.187191s][吞吐率：5.34req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:43:11+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.110669s][吞吐率：9.04req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:43:34+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.181597s][吞吐率：5.51req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:43:35+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.119582s][吞吐率：8.36req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:43:57+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.189648s][吞吐率：5.27req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:43:57+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.096482s][吞吐率：10.36req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:44:17+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.183690s][吞吐率：5.44req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:44:18+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.101785s][吞吐率：9.82req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:25+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.206584s][吞吐率：4.84req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:26+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.109619s][吞吐率：9.12req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:28+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.139504s][吞吐率：7.17req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:28+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.092595s][吞吐率：10.80req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:40+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.131919s][吞吐率：7.58req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:41+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.067178s][吞吐率：14.89req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:47+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.176038s][吞吐率：5.68req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:47+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.094591s][吞吐率：10.57req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:52+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.180402s][吞吐率：5.54req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:52+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.086432s][吞吐率：11.57req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:58+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.121586s][吞吐率：8.22req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:45:58+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.052606s][吞吐率：19.01req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:47:11+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.162256s][吞吐率：6.16req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:47:11+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.089876s][吞吐率：11.13req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:47:19+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login
+[ log ] www.tp5.com/admin.php/index/login [运行时间：0.109881s][吞吐率：9.10req/s] [内存消耗：1,778.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:47:19+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.050322s][吞吐率：19.87req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:47:21+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login?
+[ log ] www.tp5.com/admin.php/index/login? [运行时间：0.191623s][吞吐率：5.22req/s] [内存消耗：1,778.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/admin.php/index/login',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:47:21+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.100648s][吞吐率：9.94req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:47:23+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login?
+[ log ] www.tp5.com/admin.php/index/login? [运行时间：0.155776s][吞吐率：6.42req/s] [内存消耗：1,778.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/admin.php/index/login?',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:47:23+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.099203s][吞吐率：10.08req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:47:24+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login?
+[ log ] www.tp5.com/admin.php/index/login? [运行时间：0.223102s][吞吐率：4.48req/s] [内存消耗：1,778.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/admin.php/index/login?',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:47:25+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.086495s][吞吐率：11.56req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:49:05+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login?
+[ log ] www.tp5.com/admin.php/index/login? [运行时间：0.189609s][吞吐率：5.27req/s] [内存消耗：1,778.66kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/admin.php/index/login?',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:49:05+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.101252s][吞吐率：9.88req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:51:06+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login?
+[ log ] www.tp5.com/admin.php/index/login? [运行时间：0.117292s][吞吐率：8.53req/s] [内存消耗：1,778.83kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/admin.php/index/login?',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:51:06+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.049147s][吞吐率：20.35req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:52:33+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login?
+[ log ] www.tp5.com/admin.php/index/login? [运行时间：0.234867s][吞吐率：4.26req/s] [内存消耗：1,778.86kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/admin.php/index/login?',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:52:34+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.126317s][吞吐率：7.92req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:53:03+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login?
+[ log ] www.tp5.com/admin.php/index/login? [运行时间：0.237168s][吞吐率：4.22req/s] [内存消耗：1,778.86kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/admin.php/index/login?',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T17:53:03+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.110981s][吞吐率：9.01req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T18:00:12+08:00 ] 127.0.0.16 127.0.0.1 GET /admin.php/index/login?
+[ log ] www.tp5.com/admin.php/index/login? [运行时间：0.222457s][吞吐率：4.50req/s] [内存消耗：1,778.86kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/admin.php/index/login?',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp\www\myblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\myblog\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-03T18:00:12+08:00 ] 127.0.0.16 127.0.0.1 GET /static/common/css/bootstrap.min.css.map
+[ log ] www.tp5.com/static/common/css/bootstrap.min.css.map [运行时间：0.104061s][吞吐率：9.61req/s] [内存消耗：1,387.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\myblog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
