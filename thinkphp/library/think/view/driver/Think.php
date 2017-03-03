@@ -33,7 +33,7 @@ class Think
         // 模板文件名分隔符
         'view_depr'   => DS,
         // 是否开启模板编译缓存,设为false则每次都会重新编译
-        'tpl_cache'   => true,
+        'tpl_cache'   => false,
     ];
 
     public function __construct($config = [])

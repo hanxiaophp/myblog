@@ -69,7 +69,6 @@ class App
     public static function run(Request $request = null)
     {
         is_null($request) && $request = Request::instance();
-
         try {
             $config = self::initCommon();
             if (defined('BIND_MODULE')) {
