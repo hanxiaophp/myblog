@@ -13,6 +13,8 @@ class Base extends Controller{
 
     public function __construct()
     {
+        //初始化视图
         self::$mview = new Controller();
+        //检查用户是否登录
     }
 }

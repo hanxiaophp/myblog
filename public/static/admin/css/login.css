@@ -1,0 +1,4 @@
+body,html{height:100%;overflow:hidden}
+*{margin:0;padding:0}
+.loginForm{width:300px;background:#ffffff;padding:30px 20px;margin:0 auto;margin-top:20%;border-radius:5px;}
+body{background: #f1f1f1;min-width: 0;color: #444;font-size: 13px;line-height: 1.4em;}

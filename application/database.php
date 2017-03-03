@@ -23,7 +23,7 @@ return [
     // 端口
     'hostport'        => '3306',
     // 连接dsn
-    'dsn'             => 'mysql:host=localhost;dbname=test',
+    'dsn'             => 'mysql:host=localhost;dbname=myblog',
     // 数据库连接参数
     'params'          => [],
     // 数据库编码默认采用utf8

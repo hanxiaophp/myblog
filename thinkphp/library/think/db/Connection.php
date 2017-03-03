@@ -345,7 +345,6 @@ abstract class Connection
         if (!$this->linkID) {
             return false;
         }
-
         // 记录SQL语句
         $this->queryStr = $sql;
         if ($bind) {

@@ -1,0 +1,1389 @@
+[ 2017-03-02T11:02:40+08:00 ] 127.0.0.16 127.0.0.1 GET /admin
+[ log ] www.tp5.com/admin [运行时间：2.038224s][吞吐率：0.49req/s] [内存消耗：1,546.16kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'admin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T11:02:49+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.621586s][吞吐率：1.61req/s] [内存消耗：1,607.04kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot redeclare non static think\Controller::$view as static app\web\controller\Base::$view[D:\wamp\www\TP505\application\web\controller\Base.php:5]
+
+---------------------------------------------------------------
+[ 2017-03-02T15:54:22+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：1.999608s][吞吐率：0.50req/s] [内存消耗：1,453.22kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot redeclare non static think\Controller::$view as static app\web\controller\Base::$view[D:\wamp\www\TP505\application\web\controller\Base.php:5]
+
+---------------------------------------------------------------
+[ 2017-03-02T15:55:30+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：1.013908s][吞吐率：0.99req/s] [内存消耗：1,786.98kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:55:56+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.127592s][吞吐率：7.84req/s] [内存消耗：1,786.90kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:57:39+08:00 ] 127.0.0.16 127.0.0.1 GET /aboutme
+[ log ] www.tp5.com/aboutme [运行时间：0.256980s][吞吐率：3.89req/s] [内存消耗：1,786.88kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'aboutme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->aboutme[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\about.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:57:39+08:00 ] 127.0.0.16 127.0.0.1 GET /images/my.jpg
+[ log ] www.tp5.com/images/my.jpg [运行时间：0.117129s][吞吐率：8.54req/s] [内存消耗：1,385.90kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'images',
+    2 => 'my.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:57:40+08:00 ] 127.0.0.16 127.0.0.1 GET /shuo
+[ log ] www.tp5.com/shuo [运行时间：0.358169s][吞吐率：2.79req/s] [内存消耗：1,783.43kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'shuo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->shuo[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\shuo.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:57:42+08:00 ] 127.0.0.16 127.0.0.1 GET /note
+[ log ] www.tp5.com/note [运行时间：0.148660s][吞吐率：6.73req/s] [内存消耗：1,687.42kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/shuo',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->note[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Access to undeclared static property: app\web\controller\Index::$view[D:\wamp\www\TP505\application\web\controller\Index.php:20]
+
+---------------------------------------------------------------
+[ 2017-03-02T15:58:07+08:00 ] 127.0.0.16 127.0.0.1 GET /note
+[ log ] www.tp5.com/note [运行时间：0.480036s][吞吐率：2.08req/s] [内存消耗：1,796.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/shuo',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->note[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\riji.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:58:07+08:00 ] 127.0.0.16 127.0.0.1 GET /css/animate.css
+[ log ] www.tp5.com/css/animate.css [运行时间：0.085444s][吞吐率：11.70req/s] [内存消耗：1,385.88kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'css',
+    2 => 'animate.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.tp5.com/note',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:58:09+08:00 ] 127.0.0.16 127.0.0.1 GET /photo
+[ log ] www.tp5.com/photo [运行时间：0.334287s][吞吐率：2.99req/s] [内存消耗：1,785.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'photo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/note',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->photo[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\xc.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:58:17+08:00 ] 127.0.0.16 127.0.0.1 GET /learning
+[ log ] www.tp5.com/learning [运行时间：0.377719s][吞吐率：2.65req/s] [内存消耗：1,797.27kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'learning',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/photo',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->learning[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\learn.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:06+08:00 ] 127.0.0.16 127.0.0.1 GET /guestbook
+[ log ] www.tp5.com/guestbook [运行时间：0.357403s][吞吐率：2.80req/s] [内存消耗：1,786.70kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'guestbook',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/learning',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->guestbook[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\guestbook.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:06+08:00 ] 127.0.0.16 127.0.0.1 GET /images/my.jpg
+[ log ] www.tp5.com/images/my.jpg [运行时间：0.138725s][吞吐率：7.21req/s] [内存消耗：1,385.94kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'images',
+    2 => 'my.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/guestbook',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:10+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.142752s][吞吐率：7.01req/s] [内存消耗：1,787.04kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/guestbook',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:14+08:00 ] 127.0.0.16 127.0.0.1 GET /aboutme
+[ log ] www.tp5.com/aboutme [运行时间：0.124181s][吞吐率：8.05req/s] [内存消耗：1,786.82kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'aboutme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->aboutme[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\about.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:14+08:00 ] 127.0.0.16 127.0.0.1 GET /images/my.jpg
+[ log ] www.tp5.com/images/my.jpg [运行时间：0.122729s][吞吐率：8.15req/s] [内存消耗：1,385.90kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'images',
+    2 => 'my.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:17+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.128859s][吞吐率：7.76req/s] [内存消耗：1,786.98kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:22+08:00 ] 127.0.0.16 127.0.0.1 GET /aboutme
+[ log ] www.tp5.com/aboutme [运行时间：0.127622s][吞吐率：7.84req/s] [内存消耗：1,786.82kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'aboutme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->aboutme[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\about.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:22+08:00 ] 127.0.0.16 127.0.0.1 GET /images/my.jpg
+[ log ] www.tp5.com/images/my.jpg [运行时间：0.152177s][吞吐率：6.57req/s] [内存消耗：1,385.90kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'images',
+    2 => 'my.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:28+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.133265s][吞吐率：7.50req/s] [内存消耗：1,786.98kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:31+08:00 ] 127.0.0.16 127.0.0.1 GET /aboutme
+[ log ] www.tp5.com/aboutme [运行时间：0.128943s][吞吐率：7.76req/s] [内存消耗：1,786.82kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'aboutme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->aboutme[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\about.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:31+08:00 ] 127.0.0.16 127.0.0.1 GET /images/my.jpg
+[ log ] www.tp5.com/images/my.jpg [运行时间：0.114974s][吞吐率：8.70req/s] [内存消耗：1,385.90kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'images',
+    2 => 'my.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T15:59:34+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.126506s][吞吐率：7.90req/s] [内存消耗：1,786.98kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:02:53+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.188789s][吞吐率：5.30req/s] [内存消耗：1,683.61kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\TP505\public/../application/web\view\rignt.html[D:\wamp\www\TP505\thinkphp\library\think\Template.php:1090]
+
+---------------------------------------------------------------
+[ 2017-03-02T16:03:09+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.350450s][吞吐率：2.85req/s] [内存消耗：1,785.27kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:03:57+08:00 ] 127.0.0.16 127.0.0.1 GET /photo
+[ log ] www.tp5.com/photo [运行时间：0.117921s][吞吐率：8.48req/s] [内存消耗：1,785.35kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'photo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->photo[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\xc.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:03:59+08:00 ] 127.0.0.16 127.0.0.1 GET /shuo
+[ log ] www.tp5.com/shuo [运行时间：0.098237s][吞吐率：10.18req/s] [内存消耗：1,783.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'shuo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/photo',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->shuo[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\shuo.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:04:00+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.104766s][吞吐率：9.55req/s] [内存消耗：1,785.11kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/shuo',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:05:01+08:00 ] 127.0.0.16 127.0.0.1 GET /shuo
+[ log ] www.tp5.com/shuo [运行时间：0.112798s][吞吐率：8.87req/s] [内存消耗：1,783.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'shuo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->shuo[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\shuo.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:05:44+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.100157s][吞吐率：9.98req/s] [内存消耗：1,785.11kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/shuo',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:05:45+08:00 ] 127.0.0.16 127.0.0.1 GET /aboutme
+[ log ] www.tp5.com/aboutme [运行时间：0.365382s][吞吐率：2.74req/s] [内存消耗：1,786.82kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'aboutme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->aboutme[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\about.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:05:46+08:00 ] 127.0.0.16 127.0.0.1 GET /images/my.jpg
+[ log ] www.tp5.com/images/my.jpg [运行时间：0.097732s][吞吐率：10.23req/s] [内存消耗：1,385.90kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'images',
+    2 => 'my.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:05:46+08:00 ] 127.0.0.16 127.0.0.1 GET /shuo
+[ log ] www.tp5.com/shuo [运行时间：0.094477s][吞吐率：10.58req/s] [内存消耗：1,783.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'shuo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->shuo[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\shuo.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:05:47+08:00 ] 127.0.0.16 127.0.0.1 GET /note
+[ log ] www.tp5.com/note [运行时间：0.305191s][吞吐率：3.28req/s] [内存消耗：1,792.27kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'note',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/shuo',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->note[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\riji.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:05:47+08:00 ] 127.0.0.16 127.0.0.1 GET /css/animate.css
+[ log ] www.tp5.com/css/animate.css [运行时间：0.068378s][吞吐率：14.62req/s] [内存消耗：1,385.88kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'css',
+    2 => 'animate.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.tp5.com/note',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:05:48+08:00 ] 127.0.0.16 127.0.0.1 GET /learning
+[ log ] www.tp5.com/learning [运行时间：0.344556s][吞吐率：2.90req/s] [内存消耗：1,793.16kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'learning',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/note',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->learning[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\learn.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:05:49+08:00 ] 127.0.0.16 127.0.0.1 GET /guestbook
+[ log ] www.tp5.com/guestbook [运行时间：0.336611s][吞吐率：2.97req/s] [内存消耗：1,782.64kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'guestbook',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/learning',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->guestbook[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\guestbook.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:05:55+08:00 ] 127.0.0.16 127.0.0.1 GET /aboutme
+[ log ] www.tp5.com/aboutme [运行时间：0.101805s][吞吐率：9.82req/s] [内存消耗：1,786.92kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'aboutme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/guestbook',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->aboutme[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\about.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:05:55+08:00 ] 127.0.0.16 127.0.0.1 GET /images/my.jpg
+[ log ] www.tp5.com/images/my.jpg [运行时间：0.082129s][吞吐率：12.18req/s] [内存消耗：1,385.90kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'images',
+    2 => 'my.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:06:18+08:00 ] 127.0.0.16 127.0.0.1 GET /aboutme
+[ log ] www.tp5.com/aboutme [运行时间：0.389675s][吞吐率：2.57req/s] [内存消耗：1,783.08kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'aboutme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/guestbook',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->aboutme[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\about.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:06:34+08:00 ] 127.0.0.16 127.0.0.1 GET /aboutme
+[ log ] www.tp5.com/aboutme [运行时间：0.359274s][吞吐率：2.78req/s] [内存消耗：1,783.12kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'aboutme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/guestbook',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->aboutme[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\about.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:31:41+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.394888s][吞吐率：2.53req/s] [内存消耗：1,785.09kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:31:43+08:00 ] 127.0.0.16 127.0.0.1 GET /aboutme
+[ log ] www.tp5.com/aboutme [运行时间：0.107586s][吞吐率：9.29req/s] [内存消耗：1,782.88kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'aboutme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->aboutme[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\about.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-02T16:34:34+08:00 ] 127.0.0.16 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.151549s][吞吐率：6.60req/s] [内存消耗：1,785.09kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/aboutme',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/web\view\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

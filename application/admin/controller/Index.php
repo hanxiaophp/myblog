@@ -17,13 +17,11 @@ class Index extends Base{
     }
     public function index()
     {
-        $conn = Db::connect();
-        if (!$conn) {
-            return false;
-        }
-        $res =  Db::query('select * from `user`');
-        $username = $res[0]['username'];
-        self::$mview->assign('a', $res[0]['username']);
-        self::$mview->fetch('ask/index');
+        $user = model('User');
+        $user->login('admin','kzkx666!');
+    }
+    public function login()
+    {
+        return self::$mview->fetch('/login');
     }
 }

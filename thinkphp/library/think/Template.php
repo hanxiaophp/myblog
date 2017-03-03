@@ -52,6 +52,13 @@ class Template
             '__WCSS__' => '/static/web/css',
             '__WJS__' => '/static/web/js',
             '__WIMG__' => '/static/web/images',
+            '__ACSS__' => '/static/admin/css',
+            '__AJS__' => '/static/admin/js',
+            '__AIMG__' => '/static/admin/images',
+            '__CCSS__' => '/static/common/css',
+            '__CJS__' => '/static/common/js',
+            '__CIMG__' => '/static/common/images',
+            '__CFONT__' => '/static/common/fonts',
         ],
         'tpl_var_identify'   => 'array', // .语法变量识别，array|object|'', 为空时自动识别
     ];

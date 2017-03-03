@@ -1,0 +1,1257 @@
+[ 2017-02-16T10:23:23+08:00 ] ::1 ::1 GET /TP505/public/index.php
+[ log ] localhost/TP505/public/index.php [运行时间：2.242873s][吞吐率：0.45req/s] [内存消耗：1,578.37kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T10:37:36+08:00 ] ::1 ::1 GET /TP505/public/index.php/web/index
+[ log ] localhost/TP505/public/index.php/web/index [运行时间：0.169628s][吞吐率：5.90req/s] [内存消耗：1,535.91kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T10:37:46+08:00 ] ::1 ::1 GET /TP505/public/web/index
+[ log ] localhost/TP505/public/web/index [运行时间：0.114345s][吞吐率：8.75req/s] [内存消耗：1,536.02kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T10:55:56+08:00 ] ::1 ::1 GET /TP505/public/admin/index
+[ log ] localhost/TP505/public/admin/index [运行时间：0.213661s][吞吐率：4.68req/s] [内存消耗：1,579.08kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T10:56:21+08:00 ] ::1 ::1 GET /TP505/public/admin/admin
+[ log ] localhost/TP505/public/admin/admin [运行时间：0.168637s][吞吐率：5.93req/s] [内存消耗：1,579.20kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T10:56:39+08:00 ] ::1 ::1 GET /TP505/public/web/index
+[ log ] localhost/TP505/public/web/index [运行时间：0.134399s][吞吐率：7.44req/s] [内存消耗：1,536.02kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T10:56:44+08:00 ] ::1 ::1 GET /TP505/public/admin/index
+[ log ] localhost/TP505/public/admin/index [运行时间：0.186810s][吞吐率：5.35req/s] [内存消耗：1,579.08kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T10:57:47+08:00 ] ::1 ::1 GET /TP505/public/admin/index
+[ log ] localhost/TP505/public/admin/index [运行时间：0.198585s][吞吐率：5.04req/s] [内存消耗：1,580.34kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T10:59:45+08:00 ] ::1 ::1 GET /TP505/public/admin/admin
+[ log ] localhost/TP505/public/admin/admin [运行时间：0.177516s][吞吐率：5.63req/s] [内存消耗：1,579.20kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T11:00:41+08:00 ] ::1 ::1 GET /TP505/public/admin/index/index/
+[ log ] localhost/TP505/public/admin/index/index/ [运行时间：0.181451s][吞吐率：5.51req/s] [内存消耗：1,580.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T11:00:58+08:00 ] ::1 ::1 GET /TP505/public/web/index/index/
+[ log ] localhost/TP505/public/web/index/index/ [运行时间：0.140951s][吞吐率：7.09req/s] [内存消耗：1,536.18kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T11:03:58+08:00 ] ::1 ::1 GET /TP505/public/index.php/web/index/index/
+[ log ] localhost/TP505/public/index.php/web/index/index/ [运行时间：0.139092s][吞吐率：7.19req/s] [内存消耗：1,536.20kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\wamp\www\TP505\application\web\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T11:04:03+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.203679s][吞吐率：4.91req/s] [内存消耗：1,580.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T11:04:50+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/admin/index/
+[ log ] localhost/TP505/public/index.php/admin/admin/index/ [运行时间：0.193317s][吞吐率：5.17req/s] [内存消耗：1,579.15kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T11:04:57+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.202570s][吞吐率：4.94req/s] [内存消耗：1,580.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T11:26:13+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.092725s][吞吐率：10.78req/s] [内存消耗：1,535.38kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T12:46:10+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.768485s][吞吐率：1.30req/s] [内存消耗：1,592.92kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\admin\controller\Index::assing()[D:\wamp\www\TP505\application\admin\controller\Index.php:13]
+
+---------------------------------------------------------------
+[ 2017-02-16T13:40:24+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.693182s][吞吐率：1.44req/s] [内存消耗：1,594.11kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\Base' not found[D:\wamp\www\TP505\application\admin\controller\Index.php:10]
+
+---------------------------------------------------------------
+[ 2017-02-16T13:41:10+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.319350s][吞吐率：3.13req/s] [内存消耗：1,594.16kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Base' not found[D:\wamp\www\TP505\application\admin\controller\Index.php:10]
+
+---------------------------------------------------------------
+[ 2017-02-16T13:48:17+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.715100s][吞吐率：1.40req/s] [内存消耗：1,594.13kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\Base' not found[D:\wamp\www\TP505\application\admin\controller\Index.php:10]
+
+---------------------------------------------------------------
+[ 2017-02-16T13:48:30+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.499665s][吞吐率：2.00req/s] [内存消耗：1,594.15kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\Base' not found[D:\wamp\www\TP505\application\admin\controller\Index.php:10]
+
+---------------------------------------------------------------
+[ 2017-02-16T13:49:13+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.527173s][吞吐率：1.90req/s] [内存消耗：1,595.48kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\view' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T13:50:01+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.475801s][吞吐率：2.10req/s] [内存消耗：1,595.47kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\view' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:00:29+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.201536s][吞吐率：4.96req/s] [内存消耗：1,595.67kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\view\driver\View' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:01:55+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.508029s][吞吐率：1.97req/s] [内存消耗：1,595.68kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\view' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:02:32+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.655941s][吞吐率：1.52req/s] [内存消耗：1,603.48kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'view' (T_STRING), expecting variable (T_VARIABLE) or '$'[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:02:44+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.471125s][吞吐率：2.12req/s] [内存消耗：1,595.67kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'View' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:02:54+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.999421s][吞吐率：1.00req/s] [内存消耗：1,927.08kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T14:03:29+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.132197s][吞吐率：7.56req/s] [内存消耗：1,678.06kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T14:03:39+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.191870s][吞吐率：5.21req/s] [内存消耗：1,927.11kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T14:05:50+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.674522s][吞吐率：1.48req/s] [内存消耗：1,595.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\view' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:06:13+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.650493s][吞吐率：1.54req/s] [内存消耗：1,595.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\view' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:06:37+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.682583s][吞吐率：1.47req/s] [内存消耗：1,595.69kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\view' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:06:57+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.508238s][吞吐率：1.97req/s] [内存消耗：1,595.57kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'MyView\view' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:07:07+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.519819s][吞吐率：1.92req/s] [内存消耗：1,595.69kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\view\driver\Think\view' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:13:33+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.337618s][吞吐率：2.96req/s] [内存消耗：1,595.69kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\view\driver\Think\Think' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:13:35+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.490672s][吞吐率：2.04req/s] [内存消耗：1,595.69kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\view\driver\Think\Think' not found[D:\wamp\www\TP505\application\admin\controller\Base.php:15]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:13:52+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.166410s][吞吐率：6.01req/s] [内存消耗：1,771.14kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T14:14:05+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.165503s][吞吐率：6.04req/s] [内存消耗：1,771.14kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T14:14:07+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.153233s][吞吐率：6.53req/s] [内存消耗：1,771.14kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T14:14:07+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.093854s][吞吐率：10.65req/s] [内存消耗：1,771.14kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-16T14:25:51+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.263840s][吞吐率：3.79req/s] [内存消耗：1,815.13kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\TP505\public/../application/admin\view\index\index.html[D:\wamp\www\TP505\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:27:19+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.179277s][吞吐率：5.58req/s] [内存消耗：1,814.97kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:ask/index.html[D:\wamp\www\TP505\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-02-16T14:27:41+08:00 ] ::1 ::1 GET /TP505/public/index.php/admin/index/index/
+[ log ] localhost/TP505/public/index.php/admin/index/index/ [运行时间：0.180034s][吞吐率：5.55req/s] [内存消耗：1,928.13kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\TP505\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1486690411; pgv_pvi=9855047680; pgv_si=s8495889408',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\TP505\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\TP505\public/../application/admin\view\ask\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
