@@ -6,8 +6,8 @@ $(function(){
     var $password = $('#Password');
     var $ename = $('.Ename');
     var $epass = $('.Epass');
-    var result = true;
     $('#sub').on('click', function(){
+        var result = true;
         if ($.trim($name.val()) === '') {
             $ename.show();
             result = false;
@@ -19,8 +19,8 @@ $(function(){
         if (result === false) {
             return false;
         } else {
-            $.post('/admin/login', {username:$name.val(),password:$password.val()}, function(data){
-                
+            $.post('/admin/userLogin', {username:$name.val(),password:$password.val()}, function(data){
+
             });
         }
     });
