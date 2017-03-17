@@ -17,7 +17,7 @@ class Index extends Base
     }
     public function note()
     {
-        self::$mview->assign('actionname', 'note');
+        $this->view->assign('actionname', 'note');
         return  $this->view->fetch('/riji');
     }
     public function photo()

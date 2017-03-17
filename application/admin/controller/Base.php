@@ -7,6 +7,12 @@
  */
 namespace app\admin\controller;
 use think\Controller;
-
 class Base extends Controller{
+    public function __construct()
+    {
+        \think\Func::filterData();
+        if (empty($_COOKIE['loginUser'])) {
+            header("Location:/admin/login");
+        }
+    }
 }

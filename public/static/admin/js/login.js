@@ -19,9 +19,11 @@ $(function(){
         if (result === false) {
             return false;
         } else {
+            console.log('aaa');
             $.post('/admin/userLogin', {username:$name.val(),password:$password.val()}, function(data){
 
             });
+            return false;
         }
     });
     $('input').on('focus', function(){

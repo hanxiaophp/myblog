@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:57:"D:\wamp\www\myblog\public/../application/web\view\xc.html";i:1488357140;s:59:"D:\wamp\www\myblog\public/../application/web\view\head.html";i:1488360136;s:61:"D:\wamp\www\myblog\public/../application/web\view\footer.html";i:1488359209;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:57:"D:\wamp\www\myblog\public/../application/web\view\xc.html";i:1488531544;s:59:"D:\wamp\www\myblog\public/../application/web\view\head.html";i:1488531493;s:61:"D:\wamp\www\myblog\public/../application/web\view\footer.html";i:1488531486;}*/ ?>
 <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>

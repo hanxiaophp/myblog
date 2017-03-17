@@ -11,6 +11,11 @@ use think\Config;
 use think\Db;
 
 class Index extends Base{
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
     public function index()
     {
         $user = model('User');
@@ -22,7 +27,7 @@ class Index extends Base{
     }
     public function userLogin()
     {
-        echo 'adasdasdasd';
-        die;
+        //校验用户登录密码
+        $username = $_POST['username'];
     }
 }
